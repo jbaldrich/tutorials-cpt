@@ -1,9 +1,9 @@
 <?php declare (strict_types = 1);
 
-namespace JacoBaldrich\BasePlugin\Infrastructure;
+namespace JacoBaldrich\Tutorials\Infrastructure;
 
-use JacoBaldrich\BasePlugin\Domain\Path;
-use JacoBaldrich\BasePlugin\Domain\URL;
+use JacoBaldrich\Tutorials\Domain\Path;
+use JacoBaldrich\Tutorials\Domain\URL;
 
 final class WPPath implements Path, URL
 {

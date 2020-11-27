@@ -1,10 +1,10 @@
 <?php declare (strict_types = 1);
 
-namespace JacoBaldrich\BasePlugin\Infrastructure;
+namespace JacoBaldrich\Tutorials\Infrastructure;
 
-use JacoBaldrich\BasePlugin\Domain\Path;
-use JacoBaldrich\BasePlugin\Domain\View;
-use JacoBaldrich\BasePlugin\Domain\ViewFactory;
+use JacoBaldrich\Tutorials\Domain\Path;
+use JacoBaldrich\Tutorials\Domain\View;
+use JacoBaldrich\Tutorials\Domain\ViewFactory;
 
 class TemplateViewFactory implements ViewFactory
 {

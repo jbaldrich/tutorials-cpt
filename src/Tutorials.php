@@ -1,8 +1,11 @@
 <?php declare (strict_types = 1);
 
-namespace JacoBaldrich\BasePlugin;
+namespace JacoBaldrich\Tutorials;
 
-final class BasePlugin implements Plugin
+use JacoBaldrich\Tutorials\Application\AddTutorialsToMainQuery;
+use JacoBaldrich\Tutorials\Application\RegisterTutorials;
+
+final class Tutorials implements Plugin
 {
     private const HOOK = 'plugins_loaded';
 
@@ -20,12 +23,12 @@ final class BasePlugin implements Plugin
             return;
         }
 
-        // Instantiate dependencies
-        // Register use cases
+        (new RegisterTutorials)->register();
+        (new AddTutorialsToMainQuery)->register();
     }
 
     private function dependenciesAreInstalled(): bool
     {
-        return true; // check main class dependencies
+        return true;
     }
 }

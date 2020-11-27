@@ -1,6 +1,6 @@
 {
-	"name": "jacobaldrich/base-plugin",
-	"description": "Base for a custom WP plugin.",
+	"name": "jacobaldrich/tutorials-cpt",
+	"description": "A Custom Post Type for Tutorials.",
 	"type": "wordpress-plugin",
 	"license": "MIT",
 	"authors": [
@@ -20,12 +20,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"JacoBaldrich\\BasePlugin\\": "src/"
+			"JacoBaldrich\\Tutorials\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Tests\\JacoBaldrich\\BasePlugin\\": "tests/"
+			"Tests\\JacoBaldrich\\Tutorials\\": "tests/"
 		}
 	},
 	"scripts": {

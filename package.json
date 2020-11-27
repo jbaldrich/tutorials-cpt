@@ -1,5 +1,5 @@
 {
-	"name": "base-plugin",
+	"name": "tutorials-cpt",
 	"version": "1.0.0",
 	"description": "Base WP plugin",
 	"private": true,
@@ -12,14 +12,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jbaldrich/base-plugin.git"
+		"url": "git+https://github.com/jbaldrich/tutorials-cpt.git"
 	},
 	"author": "Jaco Baldrich",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jbaldrich/base-plugin/issues"
+		"url": "https://github.com/jbaldrich/tutorials-cpt/issues"
 	},
-	"homepage": "https://github.com/jbaldrich/base-plugin#readme",
+	"homepage": "https://github.com/jbaldrich/tutorials-cpt#readme",
 	"devDependencies": {
 		"@babel/cli": "^7.12.8",
 		"@babel/core": "^7.12.9",

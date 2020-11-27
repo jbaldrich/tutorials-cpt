@@ -1,6 +1,6 @@
 <?php declare( strict_types=1 );
 
-namespace JacoBaldrich\BasePlugin;
+namespace JacoBaldrich\Tutorials;
 
 final class PluginFactory
 {
@@ -9,7 +9,7 @@ final class PluginFactory
         static $plugin = null;
 
         if (null === $plugin) {
-            $plugin = new BasePlugin();
+            $plugin = new Tutorials();
         }
 
         return $plugin;

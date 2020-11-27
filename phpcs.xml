@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ruleset name="BasePlugin">
+<ruleset name="Tutorials">
 
-	<description>Jaco Baldrich Base Plugin Custom Coding Standards.</description>
+	<description>Jaco Baldrich Tutorials Custom Coding Standards.</description>
 
 	<file>./src</file>
 	<file>./tests</file>
@@ -11,7 +11,7 @@
 	<arg name="colors"/>
 
 	<config name="testVersion" value="7.0-"/>
-	<config name="text_domain" value="jacobaldrich-base-plugin"/>
+	<config name="text_domain" value="jacobaldrich-tutorials-cpt"/>
 
 	<rule ref="Inpsyde"/>
 
