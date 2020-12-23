@@ -30,7 +30,7 @@ final class RegisterTutorials implements Service
             'query_var'         => true,
             'has_archive'       => true,
             'hierarchical'      => true,
-            'taxonomies'        => ['category'],
+            'taxonomies'        => ['category', 'post_tag',],
             'show_admin_column' => true,
             'supports'          => [
                 'title',
