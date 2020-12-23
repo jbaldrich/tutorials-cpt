@@ -17,7 +17,7 @@ final class AddTutorialsToMainQuery implements Service
             return;
         }
 
-        if (empty($query->query_vars['suppress_filters']) && \is_category()) {
+        if (empty($query->query_vars['suppress_filters']) && (\is_category() || \is_tag())) {
             $query->set('post_type', ['post', 'tutorials']);
         }
     }
